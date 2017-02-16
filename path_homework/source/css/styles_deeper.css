@@ -1,0 +1,15 @@
+#div_with_img_net {
+    background-image: url("http://postashio.com/wp-content/uploads/2015/10/phillips-66-logo.jpg");
+}
+
+#div_with_img_local {
+    background-image: url("../images/sams.png");
+}
+
+#div_with_img_local2 {
+    background-image: url("../../css/img/ford.png");
+}
+
+tr.td_height td div{
+    height: 60px;
+}

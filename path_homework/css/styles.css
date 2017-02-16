@@ -1,0 +1,31 @@
+.header_main {
+    text-align: center;
+    color: darkred;
+}
+
+.col_main {
+    width: 50%;
+}
+
+#table_main {
+    width: 100%;
+    padding: 0.5em;
+    background-color: cornsilk;
+}
+
+td div {
+    padding: 1em;
+}
+
+div p img {
+    height: 50px;
+}
+
+td.col_main div {
+    overflow: hidden;
+}
+
+.long_div {
+    height: 1000px;
+    background-color: beige;
+}
