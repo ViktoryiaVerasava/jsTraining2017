@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tables and iframe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="small">
+            Event name
+        </div>
+        <div class="bottomBorder">Mel's birthday celebration</div>
+        <div>
+            <table>
+                <tr>
+                    <td colspan="2" class="small">
+                        From
+                    </td>
+                </tr>
+                <tr>
+                    <td width="65%">
+                        <select class="bottomBorder date">
+                     <option> Fri, Feb 10 2014 </option>
+                </select>
+                    </td>
+                    <td>
+                        <select class="bottomBorder time">
+                   <option>7:30 PM</option>
+              </select></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="warning">Date occurs in the past</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="small">
+                        To
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select class="bottomBorder date">
+                     <option> Fri, Feb 10 2014 </option>
+                </select>
+                    </td>
+                    <td>
+                        <select class="bottomBorder time">
+                   <option>11:30 PM</option>
+              </select></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="warning">Date occurs in the past</td>
+                </tr>
+            </table>
+        </div>
+        <div class="small">
+            Description
+        </div>
+        <div>Come help celebrate Mel's birthday with <br/> dinner, drinks and putt-putt.</div>
+        <div>
+            <div class="good">
+                <a href="./iframeContent/done.html" target="iframe">
+                    <img src="./img/good.png" alt="Good">
+                    <span>Good</span>
+                <a>
+            </div>
+        </div>
+    </div>
+    <iframe name="iframe" src="./iframeContent/output.html"></iframe>
+</body>
+
+</html>
