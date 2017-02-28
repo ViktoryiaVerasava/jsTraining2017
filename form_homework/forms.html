@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <form class="form body__form" name="formAction" action="/" method="POST" enctype="text/plain">
+
+        <div class="title form__title">
+            <span class="title__boldName">Form Action</span>
+            <p class="title__actionName">_mc4wp_action</p>
+        </div>
+
+        <div class="form__text">
+            This field will allow your visitors to choose where they would like to subscribe or unsubscribe</div>
+        <div class="form__input input">
+            <p class="input__inner-title">Field Label</p>
+            <input class="input__text input__text--all-width" type="text" name="action" size="20" maxlength="25" value="" placeholder="Form Action">
+        </div>
+
+        <div class="form__input input">
+            <p class="input__inner-title">Choice Type</p>
+            <input class="input__number" type="number" min="0" max="2" value="" placeholder="Radio Buttons">
+        </div>
+
+        <div class="form__input input">
+            <p class="input__inner-title">Choices</p>
+            <div class="input__borderedBlock">
+                <div class="radioLine input__radioLine">
+                    <input class="input__radio" type="radio" checked name="choice" value="subscribe">
+                    <input class="input__text input__text--middle-width" type="text" name="valueOnly" size="20" value="" placeholder="Subscribe" disabled>
+                    <input class="input__delete" type="image" src="close.png" alt="delete">
+                </div>
+                <div class="radioLine input__radioLine">
+                    <input class="input__radio" type="radio" name="choice" value="unsubscribe">
+                    <input class="input__text input__text--middle-width" type="text" name="valueOnly" size="20" value="" placeholder="Unsubscribe" disabled>
+                    <input class="input__delete" type="image" src="close.png" alt="delete">
+                </div>
+            </div>
+        </div>
+        <div class="form__input input">
+            <div class="form__input input">
+                <input class="input__checkbox" type="checkbox" checked name="check" value="wrap">
+                <span class="form__text">Wrap in pharagraph tags?</span>
+            </div>
+        </div>
+
+        <button class="form__button" type="submit">Add to form</button>
+
+    </form>
+</body>
+
+</html>
