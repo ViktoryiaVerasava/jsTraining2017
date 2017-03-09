@@ -1,0 +1,68 @@
+.form-group-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: rgb(55, 58, 60);
+}
+
+.form-group-2--label {
+    padding: 0 0 10px 0;
+}
+
+.form-group-2--text-field {
+    -webkit-appearance: none;
+    padding: 3px 0 0 10px;
+    margin: 0 0 20px 0;
+    height: 30px;
+    align-self: stretch;
+    font-size: 1Rem;
+    border-radius: 5px;
+    border: 1px solid rgb(153, 153, 153);
+    outline: none;
+    color: rgb(55,58,60);  
+}
+
+.form-group-2--text-field:focus, .form-group-2--textarea-field:focus {
+    border: 1px solid rgb(102, 175, 233);
+    border-radius: 5px;
+}
+
+.form-group-2--text-field::-webkit-input-placeholder, .form-group-2--textarea-field::-webkit-input-placeholder {
+    font-size: 1Rem;
+    color: rgb(153, 153, 153);
+}
+
+.form-group-2--textarea-field {
+    padding: 3px 0 0 0;
+    margin: 0 0 20px 0;
+    height: 100px;
+    align-self: stretch;
+    text-indent: 10px;
+    font-size: 1Rem;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    outline: none;
+    color: rgb(55,58,60);
+}
+
+.form-group-2--btn {
+    margin: 15px 10px 20px 0px;
+    width: 110px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 1.23em;
+    border-radius: 5px;
+    background-color: rgb(92, 184, 92);
+}
+
+.form-group-2--btn:hover, .form-group-2--btn:focus {
+    background-color: rgb(68, 157, 68);
+    outline: 0;
+}
+
+.form-group-2--btn:active {
+    background-color: rgb(57, 132, 57);
+    outline: 0;
+}

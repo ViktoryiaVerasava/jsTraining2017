@@ -1,0 +1,64 @@
+.intro {
+    flex-grow: 1;
+    background-size: cover;
+    background-image: url("../images/tm-sigma-00.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.intro--title {
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 17px;
+    color: rgb(55, 58, 60);
+  }
+
+.intro--text {
+    text-align: center;
+    display: inline-block;
+    align-self: center;
+    color: rgb(85, 85, 85);
+}
+
+@media (min-width:990px) {
+    .intro--text {
+        max-width: 400px;
+    }
+}
+
+@media (max-width:990px) {
+    .intro--text {
+        max-width: 63%;
+    }
+}
+
+@media (min-width:770px) {
+    .intro--title {
+        font-size: 2.3Rem;
+    }
+    .intro--text {
+        font-size: 1.1Rem;
+        line-height: 35px;
+    }
+}
+
+@media (max-width:770px) {
+    .intro--title {
+        font-size: 2Rem;
+    }
+    .intro--text {
+        font-size: 1Rem;
+        line-height: 30px;
+    }
+    .intro--text {
+        max-width: 96%;
+    }
+}
+
+.intro--buttons {
+    padding: 5px 0 0 0;
+}

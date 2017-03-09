@@ -1,0 +1,28 @@
+.block-data__team {
+    background-color: rgb(170, 85, 34);
+}
+
+.block-data__history {
+    background-color: rgb(34, 136, 187);
+}
+
+.block-data__management {
+    background-color: rgb(68, 153, 102);
+}
+
+.block-data__career {
+    background-color: rgb(164, 164, 48);
+}
+
+.block-data--title {
+    font-size: 1.5Rem;
+    line-height: 50px;
+    padding: 15px 30px 20px 20px;
+    color: white;
+}
+
+.block-data--text {
+    line-height: 28px;
+    padding: 0px 20px 40px 20px;
+    color: white;
+}

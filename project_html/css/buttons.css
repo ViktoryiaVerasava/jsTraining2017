@@ -1,0 +1,82 @@
+@media (min-width:990px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:990px) {
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+    }
+}
+
+@media  (max-width:810px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:770px) {
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+    }
+}
+
+@media  (max-width:545px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.buttons--btn {
+    margin: 15px 10px 5px 10px;
+    width: 200px;
+    height: 70px;
+    border: none;
+    color: white;
+    font-size: 1.4Rem;
+    border-radius: 5px;
+}
+
+.buttons--btn__gallery {
+    background-color: rgb(217, 83, 79);
+}
+
+.buttons--btn__gallery:hover, .buttons--btn-gallery:visited, .buttons--btn-gallery:focus {
+    background-color: rgb(201, 48, 44);
+    outline: 0;
+}
+
+.buttons--btn__gallery:active {
+    background-color: rgb(172, 41, 37);
+    outline: 0;
+}
+
+.buttons--btn__learn {
+    background-color: rgb(92, 184, 92);
+}
+
+.buttons--btn__learn:hover, .buttons--btn-learn:visited, .buttons--btn-learn:focus {
+    background-color: rgb(68, 157, 68);
+    outline: 0;
+}
+
+.buttons--btn__learn:active {
+    background-color: rgb(57, 132, 57);
+    outline: 0;
+}

@@ -1,0 +1,49 @@
+.contact {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.contact--title {
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 13px;
+    font-size: 1.9Rem;
+}
+
+.contact--text {
+    display: inline-block;
+    align-self: center;
+    font-size: 1Rem;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(85, 85, 85);
+}
+
+@media (min-width:990px) {
+    .contact--text {
+        max-width: 450px;
+    }
+}
+
+@media (max-width:990px) {
+    .contact--text {
+        max-width: 63%;
+    }
+}
+
+@media (max-width:757px) {
+    .contact--text {
+        max-width: 96%;
+    }
+}
+
+.contact--templatemo:not(:hover) {
+    text-decoration: none;
+    color: rgb(2, 117, 216);
+}
+.contact--templatemo:hover {
+  color:rgb(1, 76, 140);
+}

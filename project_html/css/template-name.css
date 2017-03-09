@@ -1,0 +1,9 @@
+.template-name--main {
+    padding: 0 0 7px 0;
+    font-size: 1.8Rem;
+    color: rgb(51, 51, 51);
+}
+
+.template-name--description {
+    color: rgb(136, 136, 136);
+}
