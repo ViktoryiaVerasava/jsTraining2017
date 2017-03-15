@@ -1,3 +1,8 @@
+.template-name {
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
 .template-name--main {
     padding: 0 0 7px 0;
     font-size: 1.8Rem;
@@ -6,4 +11,5 @@
 
 .template-name--description {
     color: rgb(136, 136, 136);
+    margin: 0 5px 20px 0;
 }

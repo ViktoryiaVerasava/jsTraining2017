@@ -1,45 +1,15 @@
-.navigation {
-    font-size: 0.9Rem;
-    background-color: white;
-}
-
-.navigation--template-name {
-    flex-basis: auto;
-    flex-grow: 1;
-    margin-bottom: 20px;
-}
-
-@media (min-width:990px) {
-    .navigation {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-    }
-}
-
-@media (max-width:990px) {
-    .navigation {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .navigation--template-name {
-        width: 990px;
-    }
-}
-
-.navigation--item {
+.navigation-item {
+    display: inline-block;
     flex-basis: auto;
     padding: 10px 35px 0 0;
     font-size: 1.2Rem;
 }
 
-.navigation--item >a {
+.navigation-item>a {
     color: rgb(183, 183, 183);
     text-decoration: none;
 }
 
-.navigation--item>a:hover {
+.navigation-item>a:hover {
     color: rgb(103, 103, 103);
 }

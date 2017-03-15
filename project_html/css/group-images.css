@@ -14,10 +14,12 @@
         width: 66.62%;
         border-right: 1px solid white;
     }
-    .group-images--image:nth-child(5), .group-images--image:nth-child(6) {
+    .group-images--image:nth-child(5),
+    .group-images--image:nth-child(6) {
         width: 33.25%;
     }
-    .group-images--image:nth-child(7), .group-images--image:nth-child(8) {
+    .group-images--image:nth-child(7),
+    .group-images--image:nth-child(8) {
         width: 49.94%;
     }
     .group-images--image:nth-child(7) {
@@ -26,13 +28,16 @@
     .group-images--image:nth-child(n+9) {
         width: 24.91%;
     }
-    .group-images--image:nth-child(9), .group-images--image:nth-child(10), .group-images--image:nth-child(11) {
+    .group-images--image:nth-child(9),
+    .group-images--image:nth-child(10),
+    .group-images--image:nth-child(11) {
         border-right: 1px solid white;
     }
 }
 
 @media (max-width:990px) {
-    .group-images--image:nth-child(6n+1), .group-images--image:nth-child(6n+2) {
+    .group-images--image:nth-child(6n+1),
+    .group-images--image:nth-child(6n+2) {
         width: 49.89%;
     }
     .group-images--image:nth-child(6n+1) {
@@ -42,7 +47,8 @@
         width: 66.6%;
         border-right: 1px solid white;
     }
-    .group-images--image:nth-child(6n+4), .group-images--image:nth-child(6n+5) {
+    .group-images--image:nth-child(6n+4),
+    .group-images--image:nth-child(6n+5) {
         width: 33.17%;
     }
     .group-images--image:nth-child(6n+6) {
