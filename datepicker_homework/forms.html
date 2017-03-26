@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Datepicker</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="datepicker">
+        <span class="datepicker--text">Date</span>
+        <input class="datepicker--input" onclick="showCalendar()" type="text" name="date" size="20" maxlength="10" value="">
+        <div class="datepicker--calendar" style="display:none">
+            <div class="calendar">
+                <div class="calendar--month"></div>
+                <div class="calendar--days">
+                    <div class="calendar--day">Su</div>
+                    <div class="calendar--day">Mo</div>
+                    <div class="calendar--day">Tu</div>
+                    <div class="calendar--day">We</div>
+                    <div class="calendar--day">Th</div>
+                    <div class="calendar--day">Fr</div>
+                    <div class="calendar--day">Sa</div>
+                </div>
+
+                <div class="calendar--numbers"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="insertDate.js" type="text/javascript"></script>
+
+</body>
+
+</html>
