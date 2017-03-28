@@ -10,11 +10,16 @@
 <body>
 
     <div class="datepicker">
+
         <span class="datepicker--text">Date</span>
-        <input class="datepicker--input" onclick="showCalendar()" type="text" name="date" size="20" maxlength="10" value="">
+        <input class="datepicker--input" type="text" name="date" size="20" maxlength="10" value="">
         <div class="datepicker--calendar" style="display:none">
             <div class="calendar">
-                <div class="calendar--month"></div>
+                <div class="calendar--month">
+                  <span class="calendar--previous"><</span>
+                  <span class="calendar--month-current"></span>
+                  <span class="calendar--next">></span>
+                </div>
                 <div class="calendar--days">
                     <div class="calendar--day">Su</div>
                     <div class="calendar--day">Mo</div>
