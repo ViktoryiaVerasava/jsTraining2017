@@ -1,0 +1,73 @@
+<div class="store--title">
+  Store-Like Project
+</div>
+<div class="store--group-products">
+  <div class="group-products">
+
+    <div class="group-products--product-item" *ngFor="let product of vm.products; let i = index;">
+      <div class="product-item">
+        <div class="product-item--number"> #{{i}}: </div>
+        <div class="product-item--name"> {{product.name}} </div>
+
+        <div class="product-item--params">
+          Weight:{{product.weight}}kg <br> Price:{{product.price}}$
+        </div>
+
+        <div class="product-item--supplier"> Supplied by:
+          <span *ngIf="product.owner">{{product.owner}}</span>
+          <span *ngIf="!product.owner">Unknown</span></div>
+
+
+        <div class="product-item--my-deal" *ngIf="vm.userName!==product.owner">
+          <div class="my-deal"> I want to buy:
+            <input class="my-deal--weight" placeholder="weight" type="number" min="1" [max]="product.weight" [(ngModel)]="product.currentDeal.productWeight">            kg
+            <div class="my-deal--cost" *ngIf=product.currentDeal.productWeight> it would cost: {{product.price*product.currentDeal.productWeight}} $</div>
+            <button class="my-deal--buy my-deal--buy__enabled" *ngIf=product.currentDeal.productWeight (click)="buyProduct(product)">Buy</button>
+            <button class="my-deal--buy my-deal--buy__disabled" *ngIf=!product.currentDeal.productWeight disabled>Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="store--section">
+  <div class="new-product">
+    <div class="new-product--title">Product To Add:</div>
+    <input class="new-product--name" placeholder="Product name" type="text" [(ngModel)]="newProduct.name" name="name">
+    <input class="new-product--weight" placeholder="Product weight" type="number" [(ngModel)]="newProduct.weight" name="weight">
+    <input class="new-product--price" placeholder="Product price" type="number" [(ngModel)]="newProduct.price" name="price">
+    <button class="new-product--add new-product--add__disabled" *ngIf=!(newProduct.name&&newProduct.weight&&newProduct.price)
+      disabled>Add new product</button>
+    <button class="new-product--add new-product--add__enabled" *ngIf=newProduct.name&&newProduct.weight&&newProduct.price (click)="addProduct()">Add new product</button>
+  </div>
+</div>
+
+<div class="store--section">
+  <div class="user-section">
+
+    <div class="user-section--current-user">
+      Current User: {{vm.userName}}
+    </div>
+    Change user:
+    <input class="user-section--new-name" placeholder="User name" type="text" [(ngModel)]="newUserName">
+    <button class="user-section--change" (click)="changeUser()"> Change user!</button>
+
+  </div>
+</div>
+
+<div class="store--section">
+  <div class="income-section">
+    <div class="income-section--title">
+      Income List:
+    </div>
+    <div class="income-list">
+      <div class="income-list--income-item" *ngFor="let user of ourSuppliers">
+        <div class="income-item">
+          <div> Supplier: {{user.name}} </div>
+          <div> Income: {{user.income}} $</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
