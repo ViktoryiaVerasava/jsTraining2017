@@ -1,0 +1,18 @@
+.income-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.income-list--income-item {
+    padding: 5px;
+    margin: 5px;
+    align-self: center;
+    font-size: 1Rem;
+    border-radius: 3px;
+    border: 1px solid rgb(153, 153, 153);
+    outline: none;
+    color: rgb(55, 58, 60);
+}

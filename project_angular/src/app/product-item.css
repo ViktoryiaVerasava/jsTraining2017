@@ -1,0 +1,19 @@
+.group-products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.group-products--product-item {
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid FireBrick;
+    background-color: DimGray;
+}
+
+.group-products--product-item:hover {
+    background-color: DarkSlateGray;
+}

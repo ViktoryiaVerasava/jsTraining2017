@@ -1,0 +1,20 @@
+.product-item {
+    color: white;
+}
+
+.product-item--name {
+    font-size: 1.5Rem;
+}
+
+.product-item--params {
+    padding: 10px 0;
+    line-height: 1.6Rem;
+}
+
+.product-item--supplier {
+    padding: 10px 0;
+}
+
+.product-item--my-deal {
+    line-height: 1.6Rem;
+}

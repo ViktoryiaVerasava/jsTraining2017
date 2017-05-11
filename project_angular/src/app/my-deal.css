@@ -1,0 +1,23 @@
+.my-deal--buy {
+    display: block;
+    margin: 5px;
+    width: 50px;
+    height: 30px;
+    border: none;
+    font-size: 1.2Rem;
+    border-radius: 3px;
+    color: white;
+}
+
+.my-deal--buy__enabled {
+    background-color: rgb(2, 117, 216);
+}
+
+.my-deal--buy__enabled:hover {
+    background-color: rgb(2, 90, 165);
+    outline: 0;
+}
+
+.my-deal--buy__disabled {
+    background-color: Silver;
+}
