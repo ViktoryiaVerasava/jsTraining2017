@@ -1,6 +1,6 @@
 import { Store2Page } from './app.po';
 
-describe('store2 App', () => {
+describe('store2 App', function() {
   let page: Store2Page;
 
   beforeEach(() => {
