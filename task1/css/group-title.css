@@ -1,0 +1,20 @@
+.group-title {
+    font-size: 1.5Rem;
+    font-weight: 300;
+    line-height: 2.2Rem;
+}
+
+.group-title:after {
+    content: ' ';
+    display: block;
+    width: 40px;
+    border-bottom: 1px solid;
+}
+
+.group-title_white{
+    color: white;
+}
+
+.group-black{
+    color: black;
+}

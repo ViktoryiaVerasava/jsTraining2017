@@ -1,0 +1,29 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation__item {
+    display: inline-block;
+    flex-basis: auto;
+    padding: 0 0 0 30px;
+    font-size: 0.7Rem;
+    font-weight: 600;
+}
+
+.navigation__item>a {
+    padding: 0 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation__item>a:hover {
+    color: rgb(75, 202, 255);
+    outline: 2px solid rgb(75, 202, 255);
+    outline-offset: 7px
+}
+
+.navigation__item_grey>a {
+    color: rgb(81, 95, 103);
+}

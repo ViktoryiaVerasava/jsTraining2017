@@ -1,0 +1,10 @@
+.logo__name {
+    display: inline;
+    font-size: 1.4Rem;
+    color: white;
+    font-weight: 600;
+}
+
+.logo__name_blue {
+    color: rgb(75, 202, 255);
+}

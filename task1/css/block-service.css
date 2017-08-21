@@ -1,0 +1,18 @@
+.block-sevice {
+    color: white;
+}
+
+.block-sevice__icon {
+    font-size: 2.8Rem;
+}
+
+.block-sevice__title {
+    padding: 10px 0;
+    font-size: 1.1Rem;
+    font-weight: 600;
+}
+
+.block-sevice__text {
+    font-size: 0.7Rem;
+    line-height: 0.9Rem;
+}
