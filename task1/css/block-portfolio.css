@@ -1,0 +1,32 @@
+.block-portfolio {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(71, 81, 89, 0.8);
+  opacity: 1;
+}
+
+.block-portfolio__photo {
+  width: 100%;
+  height: 100%;
+}
+
+.block-portfolio__photo:hover {
+  opacity: 0.5;
+}
+
+.block-portfolio__plus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 3Rem;
+  font-weight: 300;
+  opacity: 0;  
+  color: white
+}
+
+.block-portfolio:hover .block-portfolio__plus {
+  opacity: 1;
+}
