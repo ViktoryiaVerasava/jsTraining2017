@@ -12,5 +12,5 @@
 .group-services__block-service:nth-child(1), 
 .group-services__block-service:nth-child(2), 
 .group-services__block-service:nth-child(3) {
-    padding-right: 10px;
+    padding-right: 2.5%;
 }
