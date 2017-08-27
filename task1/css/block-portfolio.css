@@ -23,10 +23,15 @@
   -ms-transform: translate(-50%, -50%);
   font-size: 3Rem;
   font-weight: 300;
-  opacity: 0;  
-  color: white
+  opacity: 0;
+  color: white;
 }
 
 .block-portfolio:hover .block-portfolio__plus {
   opacity: 1;
+  z-index: 2;
+}
+
+.block-portfolio__plus:hover ~ .block-portfolio__photo {
+  opacity: 0.5;
 }

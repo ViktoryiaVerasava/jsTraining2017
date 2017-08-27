@@ -1,0 +1,12 @@
+.group-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(81, 95, 103);
+}
+
+.group-footer__copyright{
+    font-size: 0.6Rem;
+}
+
+

@@ -1,0 +1,107 @@
+.group-contact {
+    color: white;
+}
+
+.group-contact__line {
+    padding: 25px 0 0 0;
+}
+
+@media (min-width:850px) {
+    .group-contact__line {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .group-contact__user-data {
+        flex-basis: 480px;
+    }
+    .group-contact__author-data {
+        flex-basis: 480px;
+    }
+    .group-contact__text-field {
+        width: 90%;
+    }
+}
+
+@media (max-width:850px) {
+    .group-contact__line {
+        display: flex;
+        flex-direction: column;
+    }
+    .group-contact__author-data {
+        padding-bottom: 30px;
+    }
+    .group-contact__text-field {
+        width: 100%;
+    }
+}
+
+.group-contact__label {
+    display: block;
+    padding: 0 0 5px 0;
+    font-size: 0.7Rem;
+    font-weight: 600;
+}
+
+.group-contact__author-data {
+    padding-top: 10px;
+    font-size: 0.7Rem;
+    line-height: 1.2Rem;
+}
+
+.group-contact__text-field {
+    -webkit-appearance: none;
+    height: 40px;
+    margin: 0 0 30px 0;
+    border: 1.5px solid white;
+    outline: none;
+    text-indent: 10px;
+    font-size: 1Rem;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.group-contact__message {
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    height: 170px;
+    width: 100%;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font-size: 1Rem;
+    border: 1.5px solid white;
+    outline: none;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.group-contact__btn {
+    height: 48px;
+    margin: 5px 0 0 0;
+    border: none;
+    font-size: 0.7Rem;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(75, 202, 255);
+}
+
+@media (min-width:330px) {
+    .group-contact__btn {
+        width: 300px;
+    }
+}
+
+@media (max-width:330px) {
+    .group-contact__btn {
+        width: 100%;
+    }
+}
+
+.group-contact__btn:focus {
+    outline: none;
+}
+
+.group-contact__btn:hover {
+    background-color: rgb(0, 174, 249);
+}
