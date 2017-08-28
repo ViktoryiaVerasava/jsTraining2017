@@ -1,0 +1,28 @@
+.group-testimonials {
+    color: rgb(53, 63, 70);
+}
+
+.group-testimonials__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.group-testimonials__text {
+    font-size: 1.5Rem;
+    line-height: 2.5Rem;
+    font-weight: 300;
+    padding: 20px 0 0 0;
+}
+
+.group-testimonials__icon {
+    color: rgb(81, 95, 103);
+    font-size: 1.5Rem;
+}
+
+.group-testimonials__quote-author {
+    padding: 20px 0 10px 0;
+    font-size: 0.7Rem;
+    font-weight: 600;
+    color: rgb(75, 202, 255);
+}

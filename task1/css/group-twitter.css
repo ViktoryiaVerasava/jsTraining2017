@@ -1,0 +1,19 @@
+.group-twitter {
+    color: white;
+}
+
+.group-twitter__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.group-twitter__text {
+    padding: 20px 0 0 0;
+    font-size: 1.3Rem;
+    font-weight: 300;
+}
+
+.group-twitter__icon {
+    font-size: 1.5Rem;
+}

@@ -13,12 +13,19 @@
     <link rel="stylesheet" href="./css/slogan.css">
     <link rel="stylesheet" href="./css/group-title.css">
     <link rel="stylesheet" href="./css/group-services.css">
-    <link rel="stylesheet" href="./css/block-service.css">
+    <link rel="stylesheet" href="./css/item-service.css">
     <link rel="stylesheet" href="./css/group-portfolio.css">
-    <link rel="stylesheet" href="./css/block-portfolio.css">
+    <link rel="stylesheet" href="./css/item-portfolio.css">
+    <link rel="stylesheet" href="./css/group-default.css">
+    <link rel="stylesheet" href="./css/item-default.css">
+    <link rel="stylesheet" href="./css/group-twitter.css">
+    <link rel="stylesheet" href="./css/group-author.css">
+    <link rel="stylesheet" href="./css/item-author.css">
+    <link rel="stylesheet" href="./css/group-testimonials.css">
+    <link rel="stylesheet" href="./css/group-contact.css">
+    <link rel="stylesheet" href="./css/group-footer.css">
 
 
-    <link rel="stylesheet" href="./fontIcons/css/fontello.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <script src="https://use.fontawesome.com/7ea715cac1.js"></script>
 </head>
@@ -28,199 +35,281 @@
 
         <div class="container__group-intro">
             <div class="container__header">
-
-                <div class="header">
-                    <div class="logo">
-                        <div class="logo__name">BLU<span class="logo__name logo__name_blue">E</span>ASY</div>
-                    </div>
-                    <div class="navigation">
-                        <div class="navigation__item"><a href="#home"> HOME</a></div>
-                        <div class="navigation__item"><a href="#services"> SERVICES </a></div>
-                        <div class="navigation__item"><a href="#features"> FEATURES</a></div>
-                        <div class="navigation__item"><a href="#portfolio"> PORTFOLIO</a></div>
-                        <div class="navigation__item"><a href="#contact"> CONTACT</a></div>
+                <div class="container__content">
+                    <div class="header">
+                        <div class="logo">
+                            <div class="logo__name">BLU<span class="logo__name logo__name_blue">E</span>ASY</div>
+                        </div>
+                        <div class="navigation">
+                            <a class="navigation__item" href="#home"> HOME</a>
+                            <a class="navigation__item" href="#services"> SERVICES </a>
+                            <a class="navigation__item" href="#features"> FEATURES</a>
+                            <a class="navigation__item" href="#portfolio"> PORTFOLIO</a>
+                            <a class="navigation__item" href="#contact"> CONTACT</a>
+                        </div>
                     </div>
                 </div>
 
             </div>
-            <div class="slogan">
+            <div id="home" class="slogan">
                 <div class="slogan__text">
                     <div class="slogan__line">"I'M LOOKING FOR THE UNEXPECTED.</div>
-                    <br>
+                    <br/>
                     <div class="slogan__line">I'M LOOKING FOR THINGS I'VE NEVER SEEN BEFORE."</div>
                 </div>
             </div>
-
         </div>
-
 
         <div class="container__group container__group_blue">
-
-            <div class="group-title group-title_white">SERVICES</div>
-            <div class="group-services">
-                <div class="group-services__block-service">
-                    <div class="block-sevice">
-                        <div class="block-sevice__icon">
-                            <i class="fa fa-coffee" aria-hidden="true"></i>
+            <div id="services" class="container__content">
+                <div class="group-title group-title_white">SERVICES</div>
+                <div class="group-services">
+                    <div class="group-services__item-service">
+                        <div class="item-service">
+                            <div class="item-service__icon">
+                                <i class="fa fa-coffee" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-service__title">COFFEE</div>
+                            <div class="item-service__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sint quasi quod architecto?
+                                Dignissimos soluta temporibus dicta repellat dolorum hic iure quasi </div>
                         </div>
-                        <div class="block-sevice__title">COFFEE</div>
-                        <div class="block-sevice__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sint quasi quod architecto? Dignissimos
-                            soluta temporibus dicta repellat dolorum hic iure quasi </div>
                     </div>
-                </div>
 
-                <div class="group-services__block-service">
-                    <div class="block-sevice">
-                        <div class="block-sevice__icon">
-                            <i class="fa fa-camera-retro" aria-hidden="true"></i>
+                    <div class="group-services__item-service">
+                        <div class="item-service">
+                            <div class="item-service__icon">
+                                <i class="fa fa-camera-retro" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-service__title">INSTANT</div>
+                            <div class="item-service__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sint quasi quod architecto?
+                                Dignissimos soluta temporibus dicta repellat dolorum hic iure quasi </div>
                         </div>
-                        <div class="block-sevice__title">INSTANT</div>
-                        <div class="block-sevice__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sint quasi quod architecto? Dignissimos
-                            soluta temporibus dicta repellat dolorum hic iure quasi </div>
                     </div>
-                </div>
 
-                <div class="group-services__block-service">
-                    <div class="block-sevice">
-                        <div class="block-sevice__icon">
-                            <i class="fa fa-video-camera" aria-hidden="true"></i>
+                    <div class="group-services__item-service">
+                        <div class="item-service">
+                            <div class="item-service__icon">
+                                <i class="fa fa-video-camera" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-service__title">SERIOUS</div>
+                            <div class="item-service__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sint quasi quod architecto?
+                                Dignissimos soluta temporibus dicta repellat dolorum hic iure quasi </div>
                         </div>
-                        <div class="block-sevice__title">SERIOUS</div>
-                        <div class="block-sevice__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sint quasi quod architecto? Dignissimos
-                            soluta temporibus dicta repellat dolorum hic iure quasi </div>
                     </div>
-                </div>
 
-                <div class="group-services__block-service">
-                    <div class="block-sevice">
-                        <div class="block-sevice__icon">
-                            <i class="fa fa-picture-o" aria-hidden="true"></i>
+                    <div class="group-services__item-service">
+                        <div class="item-service">
+                            <div class="item-service__icon">
+                                <i class="fa fa-picture-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-service__title">FRAME</div>
+                            <div class="item-service__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sint quasi quod architecto?
+                                Dignissimos soluta temporibus dicta repellat dolorum hic iure quasi </div>
                         </div>
-                        <div class="block-sevice__title">FRAME</div>
-                        <div class="block-sevice__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sint quasi quod architecto? Dignissimos
-                            soluta temporibus dicta repellat dolorum hic iure quasi </div>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
-
-
 
         <div class="container__group container__group_white">
-            <div class="group-portfolio">
-                <div class="group-portfolio__header">
-                    <div class="group-title group-title_black">PORTFOLIO</div>
-                    <div class="navigation">
-                        <div class="navigation__item navigation__item_grey"><a href="#all"> ALL</a></div>
-                        <div class="navigation__item navigation__item_grey"><a href="#panoramas"> PANORAMAS </a></div>
-                        <div class="navigation__item navigation__item_grey"><a href="#portraits"> PORTRAITS</a></div>
-                        <div class="navigation__item navigation__item_grey"><a href="#macro"> MACRO</a></div>
-                        <div class="navigation__item navigation__item_grey"><a href="#journal"> JOURNAL</a></div>
+            <div class="container__content">
+                <div id="portfolio" class="group-portfolio">
+                    <div class="group-portfolio__header">
+                        <div class="group-title group-title_black">PORTFOLIO</div>
+                        <div class="navigation">
+                            <a class="navigation__item navigation__item_grey" href="#all"> ALL</a>
+                            <a class="navigation__item navigation__item_grey" href="#panoramas"> PANORAMAS </a>
+                            <a class="navigation__item navigation__item_grey" href="#portraits"> PORTRAITS</a>
+                            <a class="navigation__item navigation__item_grey" href="#macro"> MACRO</a>
+                            <a class="navigation__item navigation__item_grey" href="#journal"> JOURNAL</a>
+                        </div>
+                    </div>
+
+                    <div class="group-portfolio__content">
+
+                        <div class="group-portfolio__line">
+
+                            <div class="group-portfolio__photo">
+                                <div class="item-portfolio">
+                                    <div class="item-portfolio__plus">+</div>
+                                    <img class="item-portfolio__photo" src="./img/img5.png" alt="long_bridge">
+                                </div>
+                            </div>
+                            <div class="group-portfolio__photo">
+                                <div class="item-portfolio">
+                                    <div class="item-portfolio__plus">+</div>
+                                    <img class="item-portfolio__photo" src="./img/img4.png" alt="long_bridge">
+                                </div>
+                            </div>
+                            <div class="group-portfolio__photo">
+                                <div class="item-portfolio">
+                                    <div class="item-portfolio__plus">+</div>
+                                    <img class="item-portfolio__photo" src="./img/img6.png" alt="long_bridge">
+                                </div>
+                            </div>
+                            <div class="group-portfolio__photo">
+                                <div class="item-portfolio">
+                                    <div class="item-portfolio__plus">+</div>
+                                    <img class="item-portfolio__photo" src="./img/img7.png" alt="long_bridge">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group-portfolio__line">
+                            <div class="group-portfolio__photo">
+                                <div class="item-portfolio">
+                                    <div class="item-portfolio__plus">+</div>
+                                    <img class="item-portfolio__photo" src="./img/img10.png" alt="long_bridge">
+                                </div>
+                            </div>
+                            <div class="group-portfolio__photo">
+                                <div class="item-portfolio">
+                                    <div class="item-portfolio__plus">+</div>
+                                    <img class="item-portfolio__photo" src="./img/img8.png" alt="long_bridge">
+                                </div>
+                            </div>
+                            <div class="group-portfolio__photo">
+                                <div class="item-portfolio">
+                                    <div class="item-portfolio__plus">+</div>
+                                    <img class="item-portfolio__photo" src="./img/img9.png" alt="long_bridge">
+                                </div>
+                            </div>
+                            <div class="group-portfolio__photo">
+                                <div class="item-portfolio">
+                                    <div class="item-portfolio__plus">+</div>
+                                    <img class="item-portfolio__photo" src="./img/img11.png" alt="long_bridge">
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-
-                <div class="group-portfolio__content">
-
-                    <div class="group-portfolio__line">
-
-                        <div class="group-portfolio__photo">
-                            <div class="block-portfolio">
-                                <img class="block-portfolio__photo" src="./img/img5.png" alt="long_bridge">
-                                <div class="block-portfolio__plus">+</div>
-                            </div>
-                        </div>
-                        <div class="group-portfolio__photo">
-                            <div class="block-portfolio">
-                                <img class="block-portfolio__photo" src="./img/img4.png" alt="long_bridge">
-                                <div class="block-portfolio__plus">+</div>
-                            </div>
-                        </div>
-                        <div class="group-portfolio__photo">
-                            <div class="block-portfolio">
-                                <img class="block-portfolio__photo" src="./img/img6.png" alt="long_bridge">
-                                <div class="block-portfolio__plus">+</div>
-                            </div>
-                        </div>
-                          <div class="group-portfolio__photo">
-                            <div class="block-portfolio">
-                                <img class="block-portfolio__photo" src="./img/img7.png" alt="long_bridge">
-                                <div class="block-portfolio__plus">+</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="group-portfolio__line">
-                        <div class="group-portfolio__photo">
-                            <div class="block-portfolio">
-                                <img class="block-portfolio__photo" src="./img/img10.png" alt="long_bridge">
-                                <div class="block-portfolio__plus">+</div>
-                            </div>
-                        </div>
-                          <div class="group-portfolio__photo">
-                            <div class="block-portfolio">
-                                <img class="block-portfolio__photo" src="./img/img8.png" alt="long_bridge">
-                                <div class="block-portfolio__plus">+</div>
-                            </div>
-                        </div>
-                          <div class="group-portfolio__photo">
-                            <div class="block-portfolio">
-                                <img class="block-portfolio__photo" src="./img/img9.png" alt="long_bridge">
-                                <div class="block-portfolio__plus">+</div>
-                            </div>
-                        </div>
-                          <div class="group-portfolio__photo">
-                            <div class="block-portfolio">
-                                <img class="block-portfolio__photo" src="./img/img11.png" alt="long_bridge">
-                                <div class="block-portfolio__plus">+</div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-
             </div>
         </div>
-
-
 
         <div class="container__group container__group_grey">
-            <div class="group-default">
-                <div class="group-title group-title_white">JUST DEFAULT SECTION</div>
-
+            <div class="container__content">
+                <div id="features" class="group-default">
+                    <div class="group-default__item-default item-default">
+                        <div class="group-title group-title_white">JUST DEFAULT SECTION</div>
+                        <div class="item-default__text item-default__text_first">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis corrupti aspernatur laboriosam saepe. Adipisci similique
+                            obcaecati aperiam, ab nisi praesentium omnis amet, soluta, quibusdam a dignissimos laudantium,
+                            natus rem provident.
+                        </div>
+                        <div class="item-default__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis corrupti aspernatur laboriosam saepe. Adipisci similique
+                            obcaecati aperiam, ab nisi praesentium omnis amet, soluta, quibusdam a dignissimos laudantium,
+                            natus rem provident.
+                        </div>
+                        <button class="item-default__btn">VISIT ME</button>
+                    </div>
+                    <div class="group-default__item-default item-default">
+                        <iframe src="https://player.vimeo.com/video/158019961" class="item-default__video" frameborder="0" webkitallowfullscreen
+                            mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
         </div>
-
 
         <div class="container__group container__group_blue">
-            <div class="group-twitter">
-                <div class="group-title group-title_white">TWITTER</div>
-
+            <div class="container__content">
+                <div class="group-twitter">
+                    <div class="group-twitter__header">
+                        <div class="group-title group-title_white">TWITTER</div>
+                        <div class="group-twitter__icon">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="group-twitter__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis corrupti aspernatur</div>
+                    <div class="group-twitter__text"><b>@cheesecake</b> tootsie roll.</div>
+                </div>
             </div>
         </div>
 
-        <div class="container__group container__group_img2">
-            <div class="group-author">
-                <div class="group-title group-title_white">WHO IS JOHN DOE</div>
-
+        <div class="container__group container__group_author">
+            <div class="container__content">
+                <div class="group-title group-title_white">WHO IS JOHN DOE?</div>
+                <div class="group-author">
+                    <div class="group-author__item-author item-author">
+                        <div class="item-author__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis corrupti aspernatur laboriosam saepe.
+                            Adipisci similique obcaecati aperiam, ab nisi praesentium omnis amet, soluta, quibusdam a dignissimos
+                            laudantium, natus rem provident.</div>
+                        <div class="item-author__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis corrupti aspernatur laboriosam saepe.
+                            Adipisci similique obcaecati aperiam, ab nisi praesentium omnis amet, soluta, quibusdam a dignissimos
+                            laudantium, natus rem provident.</div>
+                    </div>
+                    <div class="group-author__item-author item-author">
+                        <div class="item-author__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis corrupti aspernatur laboriosam saepe.
+                            Adipisci similique obcaecati aperiam, ab nisi praesentium omnis amet, soluta, quibusdam a dignissimos
+                            laudantium, natus rem provident.</div>
+                        <div class="item-author__text">
+                            <div class="item-author__icon"> <i class="fa fa-twitter" aria-hidden="true"></i></div>
+                            <div class="item-author__icon"> <i class="fa fa-google-plus" aria-hidden="true"></i></div>
+                            <div class="item-author__icon"> <i class="fa fa-futbol-o" aria-hidden="true"></i></div>
+                            <div class="item-author__icon"> <i class="fa fa-coffee" aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="container__group container__group_white">
-            <div class="group-testimanials">
-                <div class="group-title group-title_black">TESTIMONIALS</div>
-
+            <div class="container__content">
+                <div class="group-testimonials">
+                    <div class="group-testimonials__header">
+                        <div class=" group-title group-title_black ">TESTIMONIALS</div>
+                        <div class="group-testimonials__icon">
+                            <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="group-testimonials__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis corrupti aspernatur laboriosam saepe. Adipisci similique
+                        obcaecati aperiam
+                    </div>
+                    <div class="group-testimonials__quote-author">-Walter White</div>
+                </div>
             </div>
         </div>
 
+        <div class="container__group container__group_contact ">
+            <div class="container__content">
+                <div id="contact" class="group-contact">
+                    <div class="group-title group-title_white ">CONTACT</div>
+                    <div class="group-contact__line">
+                        <div class="group-contact__user-data">
+                            <label class="group-contact__label">FULL NAME</label>
+                            <input class="group-contact__text-field" />
+                            <label class="group-contact__label">EMAIL</label>
+                            <input class="group-contact__text-field" />
+                        </div>
+                        <div class="group-contact__author-data">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis corrupti aspernatur laboriosam saepe. Adipisci similique
+                            obcaecati aperiam, ab nisi praesentium omnis amet, soluta, quibusdam a dignissimos
+                            <br/><br/> Linda Newman<br/> W325 State Road 123<br/> Mondovi, WI(Wisconsin) 98746-54321<br/>(715)946-1234
+                        </div>
+                    </div>
+                    <label class="group-contact__label">MESSAGE</label>
+                    <textarea div class="group-contact__message"></textarea>
 
-        <div class="container__group container__group_img3">
-            <div class="group-contact">
-                <div class="group-title group-title_white">CONTACT</div>
-
+                </div>
+                <button class="group-contact__btn">MESSAGE</button>
             </div>
         </div>
 
+        <div class="container__group container__group_footer ">
+            <div class="container__content">
+                <div class="group-footer">
+                    <div class="navigation navigation_footer">
+                        <a class="navigation__item navigation__item_grey navigation__item_footer" href="#home">HOME</a>
+                        <a class="navigation__item navigation__item_grey navigation__item_footer" href="#services"> SERVICES </a>
+                        <a class="navigation__item navigation__item_grey navigation__item_footer" href="#portfolio"> PORTFOLIO</a>
+                        <a class="navigation__item navigation__item_grey navigation__item_footer" href="#contact"> CONTACT</a>
+                    </div>
+                    <div class="group-footer__copyright">2013 ©</div>
+                </div>
+            </div>
+        </div>
 
     </div>
 </body>

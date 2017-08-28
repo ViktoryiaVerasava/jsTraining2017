@@ -1,0 +1,26 @@
+@media (min-width:750px) {
+    .group-author {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:940px) {
+    .group-author__item-author {
+        flex-basis: 445px;
+    }
+}
+
+@media (max-width:940px) and (min-width:750px) {
+    .group-author__item-author {
+        flex-basis: 49%;
+    }
+}
+
+@media (max-width:750px) {
+    .group-author {
+        display: flex;
+        flex-direction: column;
+    }
+}

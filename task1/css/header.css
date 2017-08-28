@@ -1,8 +1,8 @@
-.header {   
+.header {
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
     align-items: center;
-    height: 50px;
 }

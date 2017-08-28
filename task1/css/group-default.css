@@ -1,0 +1,20 @@
+@media (min-width:850px) {
+    .group-default {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .group-default__item-default {
+        flex-basis: 400px;
+    }
+}
+
+@media (max-width:850px) {
+    .group-default {
+        display: flex;
+        flex-direction: column;
+    }
+    .group-default__item-default:nth-child(2) {
+        height: 300px;
+    }
+}
