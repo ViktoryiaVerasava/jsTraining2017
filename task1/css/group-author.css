@@ -7,13 +7,13 @@
 }
 
 @media (min-width:940px) {
-    .group-author__block-author {
+    .group-author__item-author {
         flex-basis: 445px;
     }
 }
 
 @media (max-width:940px) and (min-width:750px) {
-    .group-author__block-author {
+    .group-author__item-author {
         flex-basis: 49%;
     }
 }
