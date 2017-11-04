@@ -1,0 +1,188 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files (x86)\\Appium\\\\node.exe',
+1 verbose cli   'c:\\Program Files (x86)\\Appium\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'reinstall',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.6
+3 info using node@v0.12.9
+4 verbose node symlink c:\Program Files (x86)\Appium\\node.exe
+5 verbose cache add [ 'reinstall', null ]
+6 verbose cache add name=undefined spec="reinstall" args=["reinstall",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'reinstall',
+7 verbose parsed url   path: 'reinstall',
+7 verbose parsed url   href: 'reinstall' }
+8 silly lockFile 4d3e1bd3-reinstall reinstall
+9 verbose lock reinstall C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\4d3e1bd3-reinstall.lock
+10 silly lockFile 4d3e1bd3-reinstall reinstall
+11 silly lockFile 4d3e1bd3-reinstall reinstall
+12 verbose addNamed [ 'reinstall', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile b37749ea-reinstall reinstall@
+15 verbose lock reinstall@ C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\b37749ea-reinstall.lock
+16 silly addNameRange { name: 'reinstall', range: '*', hasData: false }
+17 verbose url raw reinstall
+18 verbose url resolving [ 'https://registry.npmjs.org/', './reinstall' ]
+19 verbose url resolved https://registry.npmjs.org/reinstall
+20 info trying registry request attempt 1 at 2:27:19 PM
+21 http GET https://registry.npmjs.org/reinstall
+22 http 200 https://registry.npmjs.org/reinstall
+23 silly registry.get cb [ 200,
+23 silly registry.get   { server: 'nginx/1.10.1',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'last-modified': 'Sat, 12 Aug 2017 21:13:47 GMT',
+23 silly registry.get     etag: 'W/"598f6f8b-1a7e"',
+23 silly registry.get     'content-encoding': 'gzip',
+23 silly registry.get     'cache-control': 'max-age=300',
+23 silly registry.get     'content-length': '1420',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     date: 'Thu, 02 Nov 2017 11:27:20 GMT',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     age: '0',
+23 silly registry.get     connection: 'close',
+23 silly registry.get     'x-served-by': 'cache-hhn1537-HHN',
+23 silly registry.get     'x-cache': 'MISS',
+23 silly registry.get     'x-cache-hits': '0',
+23 silly registry.get     'x-timer': 'S1509622040.260666,VS0,VE94',
+23 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+24 silly addNameRange number 2 { name: 'reinstall', range: '*', hasData: true }
+25 silly addNameRange versions [ 'reinstall', [ '1.0.0', '1.0.1', '1.1.0', '1.1.1', '2.0.0' ] ]
+26 verbose addNamed [ 'reinstall', '2.0.0' ]
+27 verbose addNamed [ '2.0.0', '2.0.0' ]
+28 silly lockFile ec0563d9-reinstall-2-0-0 reinstall@2.0.0
+29 verbose lock reinstall@2.0.0 C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\ec0563d9-reinstall-2-0-0.lock
+30 silly lockFile 7bfc8093-rg-reinstall-reinstall-2-0-0-tgz https://registry.npmjs.org/reinstall/-/reinstall-2.0.0.tgz
+31 verbose lock https://registry.npmjs.org/reinstall/-/reinstall-2.0.0.tgz C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\7bfc8093-rg-reinstall-reinstall-2-0-0-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/reinstall/-/reinstall-2.0.0.tgz',
+32 verbose addRemoteTarball   '72dcdb19d0a99dcf93467c21e85f5df3cea22807' ]
+33 info retry fetch attempt 1 at 2:27:20 PM
+34 verbose fetch to= C:\Users\VIKTOR~1\AppData\Local\Temp\npm-13064-VFf7ztMx\1509622040366-0.1377749820239842\tmp.tgz
+35 http GET https://registry.npmjs.org/reinstall/-/reinstall-2.0.0.tgz
+36 http 200 https://registry.npmjs.org/reinstall/-/reinstall-2.0.0.tgz
+37 verbose tar unpack C:\Users\VIKTOR~1\AppData\Local\Temp\npm-13064-VFf7ztMx\1509622040366-0.1377749820239842\tmp.tgz
+38 silly lockFile 75111300-40366-0-1377749820239842-package tar://C:\Users\VIKTOR~1\AppData\Local\Temp\npm-13064-VFf7ztMx\1509622040366-0.1377749820239842\package
+39 verbose lock tar://C:\Users\VIKTOR~1\AppData\Local\Temp\npm-13064-VFf7ztMx\1509622040366-0.1377749820239842\package C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\75111300-40366-0-1377749820239842-package.lock
+40 silly lockFile dbf3a711-40366-0-1377749820239842-tmp-tgz tar://C:\Users\VIKTOR~1\AppData\Local\Temp\npm-13064-VFf7ztMx\1509622040366-0.1377749820239842\tmp.tgz
+41 verbose lock tar://C:\Users\VIKTOR~1\AppData\Local\Temp\npm-13064-VFf7ztMx\1509622040366-0.1377749820239842\tmp.tgz C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\dbf3a711-40366-0-1377749820239842-tmp-tgz.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm extractEntry .npmignore
+45 silly gunzTarPerm extractEntry README.md
+46 silly gunzTarPerm extractEntry LICENSE
+47 silly gunzTarPerm extractEntry bin/cmd.js
+48 silly lockFile 75111300-40366-0-1377749820239842-package tar://C:\Users\VIKTOR~1\AppData\Local\Temp\npm-13064-VFf7ztMx\1509622040366-0.1377749820239842\package
+49 silly lockFile 75111300-40366-0-1377749820239842-package tar://C:\Users\VIKTOR~1\AppData\Local\Temp\npm-13064-VFf7ztMx\1509622040366-0.1377749820239842\package
+50 silly lockFile dbf3a711-40366-0-1377749820239842-tmp-tgz tar://C:\Users\VIKTOR~1\AppData\Local\Temp\npm-13064-VFf7ztMx\1509622040366-0.1377749820239842\tmp.tgz
+51 silly lockFile dbf3a711-40366-0-1377749820239842-tmp-tgz tar://C:\Users\VIKTOR~1\AppData\Local\Temp\npm-13064-VFf7ztMx\1509622040366-0.1377749820239842\tmp.tgz
+52 verbose tar pack [ 'C:\\Users\\Viktoryia_Verasava\\AppData\\Roaming\\npm-cache\\reinstall\\2.0.0\\package.tgz',
+52 verbose tar pack   'C:\\Users\\VIKTOR~1\\AppData\\Local\\Temp\\npm-13064-VFf7ztMx\\1509622040366-0.1377749820239842\\package' ]
+53 verbose tarball C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package.tgz
+54 verbose folder C:\Users\VIKTOR~1\AppData\Local\Temp\npm-13064-VFf7ztMx\1509622040366-0.1377749820239842\package
+55 silly lockFile 75111300-40366-0-1377749820239842-package tar://C:\Users\VIKTOR~1\AppData\Local\Temp\npm-13064-VFf7ztMx\1509622040366-0.1377749820239842\package
+56 verbose lock tar://C:\Users\VIKTOR~1\AppData\Local\Temp\npm-13064-VFf7ztMx\1509622040366-0.1377749820239842\package C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\75111300-40366-0-1377749820239842-package.lock
+57 silly lockFile c3de25bc-ache-reinstall-2-0-0-package-tgz tar://C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package.tgz
+58 verbose lock tar://C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package.tgz C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\c3de25bc-ache-reinstall-2-0-0-package-tgz.lock
+59 silly lockFile 75111300-40366-0-1377749820239842-package tar://C:\Users\VIKTOR~1\AppData\Local\Temp\npm-13064-VFf7ztMx\1509622040366-0.1377749820239842\package
+60 silly lockFile 75111300-40366-0-1377749820239842-package tar://C:\Users\VIKTOR~1\AppData\Local\Temp\npm-13064-VFf7ztMx\1509622040366-0.1377749820239842\package
+61 silly lockFile c3de25bc-ache-reinstall-2-0-0-package-tgz tar://C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package.tgz
+62 silly lockFile c3de25bc-ache-reinstall-2-0-0-package-tgz tar://C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package.tgz
+63 silly lockFile cd55c845-pm-cache-reinstall-2-0-0-package C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package
+64 verbose lock C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\cd55c845-pm-cache-reinstall-2-0-0-package.lock
+65 silly lockFile cd55c845-pm-cache-reinstall-2-0-0-package C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package
+66 silly lockFile cd55c845-pm-cache-reinstall-2-0-0-package C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package
+67 verbose tar unpack C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package.tgz
+68 silly lockFile 6ac39336-pm-cache-reinstall-2-0-0-package tar://C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package
+69 verbose lock tar://C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\6ac39336-pm-cache-reinstall-2-0-0-package.lock
+70 silly lockFile c3de25bc-ache-reinstall-2-0-0-package-tgz tar://C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package.tgz
+71 verbose lock tar://C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package.tgz C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\c3de25bc-ache-reinstall-2-0-0-package-tgz.lock
+72 silly gunzTarPerm modes [ '755', '644' ]
+73 silly gunzTarPerm extractEntry package.json
+74 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+75 silly gunzTarPerm extractEntry .npmignore
+76 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+77 silly gunzTarPerm extractEntry README.md
+78 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+79 silly gunzTarPerm extractEntry LICENSE
+80 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+81 silly gunzTarPerm extractEntry bin/cmd.js
+82 silly gunzTarPerm modified mode [ 'bin/cmd.js', 438, 420 ]
+83 silly lockFile 6ac39336-pm-cache-reinstall-2-0-0-package tar://C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package
+84 silly lockFile 6ac39336-pm-cache-reinstall-2-0-0-package tar://C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package
+85 silly lockFile c3de25bc-ache-reinstall-2-0-0-package-tgz tar://C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package.tgz
+86 silly lockFile c3de25bc-ache-reinstall-2-0-0-package-tgz tar://C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package.tgz
+87 verbose chmod C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package.tgz 644
+88 silly chown skipping for windows C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package.tgz
+89 silly lockFile 7bfc8093-rg-reinstall-reinstall-2-0-0-tgz https://registry.npmjs.org/reinstall/-/reinstall-2.0.0.tgz
+90 silly lockFile 7bfc8093-rg-reinstall-reinstall-2-0-0-tgz https://registry.npmjs.org/reinstall/-/reinstall-2.0.0.tgz
+91 silly lockFile ec0563d9-reinstall-2-0-0 reinstall@2.0.0
+92 silly lockFile ec0563d9-reinstall-2-0-0 reinstall@2.0.0
+93 silly lockFile b37749ea-reinstall reinstall@
+94 silly lockFile b37749ea-reinstall reinstall@
+95 silly resolved [ { name: 'reinstall',
+95 silly resolved     version: '2.0.0',
+95 silly resolved     description: 'Reinstall package\'s node modules without cache',
+95 silly resolved     main: 'index.js',
+95 silly resolved     bin: { reinstall: 'bin/cmd.js' },
+95 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+95 silly resolved     repository: { type: 'git', url: 'https://github.com/scottcorgan/reinstall' },
+95 silly resolved     keywords: [ 'install', 'node_modules', 'cache', 'clean', 'remove' ],
+95 silly resolved     author: { name: 'Scott Corgan' },
+95 silly resolved     license: 'MIT',
+95 silly resolved     bugs: { url: 'https://github.com/scottcorgan/reinstall/issues' },
+95 silly resolved     homepage: 'https://github.com/scottcorgan/reinstall',
+95 silly resolved     dependencies: { 'cross-spawn': '^0.2.3', rimraf: '^2.5.4' },
+95 silly resolved     readme: '# reinstall\n\nReinstall package\'s node modules without cache.\n\n* Removes node_modules directory\n* Clean\'s NPM cache\n* Install\'s modules from package.json\n\n## Install\n\n```\nnpm install reinstall -g\n```\n\n## Usage\n\n```\nreinstall\n```\n\nThat\'s it.',
+95 silly resolved     readmeFilename: 'README.md',
+95 silly resolved     _id: 'reinstall@2.0.0',
+95 silly resolved     dist: { shasum: 'a948a5b1c6f94d9bb8c4c44648ce29449fcfc95c' },
+95 silly resolved     _from: 'reinstall@',
+95 silly resolved     _resolved: 'https://registry.npmjs.org/reinstall/-/reinstall-2.0.0.tgz' } ]
+96 info install reinstall@2.0.0 into c:\Program Files (x86)\Appium
+97 info installOne reinstall@2.0.0
+98 info c:\Program Files (x86)\Appium\node_modules\reinstall unbuild
+99 verbose tar unpack C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package.tgz
+100 silly lockFile 7ba81694-86-Appium-node-modules-reinstall tar://c:\Program Files (x86)\Appium\node_modules\reinstall
+101 verbose lock tar://c:\Program Files (x86)\Appium\node_modules\reinstall C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\7ba81694-86-Appium-node-modules-reinstall.lock
+102 silly lockFile c3de25bc-ache-reinstall-2-0-0-package-tgz tar://C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package.tgz
+103 verbose lock tar://C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\reinstall\2.0.0\package.tgz C:\Users\Viktoryia_Verasava\AppData\Roaming\npm-cache\c3de25bc-ache-reinstall-2-0-0-package-tgz.lock
+104 silly gunzTarPerm modes [ '755', '644' ]
+105 error Error: EPERM, mkdir 'c:\Program Files (x86)\Appium\node_modules\reinstall'
+105 error     at Error (native)
+105 error  { [Error: EPERM, mkdir 'c:\Program Files (x86)\Appium\node_modules\reinstall']
+105 error   errno: -4048,
+105 error   code: 'EPERM',
+105 error   path: 'c:\\Program Files (x86)\\Appium\\node_modules\\reinstall',
+105 error   fstream_type: 'Directory',
+105 error   fstream_path: 'c:\\Program Files (x86)\\Appium\\node_modules\\reinstall',
+105 error   fstream_class: 'DirWriter',
+105 error   fstream_stack:
+105 error    [ 'c:\\Program Files (x86)\\Appium\\node_modules\\npm\\node_modules\\fstream\\lib\\dir-writer.js:36:23',
+105 error      'c:\\Program Files (x86)\\Appium\\node_modules\\npm\\node_modules\\mkdirp\\index.js:37:53',
+105 error      'FSReqWrap.oncomplete (fs.js:95:15)' ] }
+106 error Please try running this command again as root/Administrator.
+107 error System Windows_NT 10.0.14393
+108 error command "c:\\Program Files (x86)\\Appium\\\\node.exe" "c:\\Program Files (x86)\\Appium\\node_modules\\npm\\bin\\npm-cli.js" "i" "reinstall" "-g"
+109 error cwd D:\JS_Repo\task3\hybrid\angular-typescript-webpack
+110 error node -v v0.12.9
+111 error npm -v 1.4.6
+112 error path c:\Program Files (x86)\Appium\node_modules\reinstall
+113 error fstream_path c:\Program Files (x86)\Appium\node_modules\reinstall
+114 error fstream_type Directory
+115 error fstream_class DirWriter
+116 error code EPERM
+117 error errno -4048
+118 error stack Error: EPERM, mkdir 'c:\Program Files (x86)\Appium\node_modules\reinstall'
+118 error stack     at Error (native)
+119 error fstream_stack c:\Program Files (x86)\Appium\node_modules\npm\node_modules\fstream\lib\dir-writer.js:36:23
+119 error fstream_stack c:\Program Files (x86)\Appium\node_modules\npm\node_modules\mkdirp\index.js:37:53
+119 error fstream_stack FSReqWrap.oncomplete (fs.js:95:15)
+120 verbose exit [ -4048, true ]

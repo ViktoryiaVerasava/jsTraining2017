@@ -1,0 +1,22 @@
+<div>Add item</div>
+
+<div>
+    <div>
+        <div>Item Name</div>
+        <input [(ngModel)]="newItem.name" />
+    </div>
+
+    <div>
+        <div>Category</div>
+        <select [(ngModel)]="newItem.category">
+        <option *ngFor="let category of categories; let i = index" [ngValue]="category">{{category}}</option> 
+        </select>
+    </div>
+
+    <div>
+        <div>Content</div>
+        <textarea [(ngModel)]="newItem.content"></textarea>
+    </div>
+
+    <button (click)="addNewItem()">Submit</button>
+</div>
