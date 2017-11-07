@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AddItemComponent } from './modules/tweets/angular/components/add-item/add-item.component';
-import { RadioComponent } from './modules/tweets/angular/components/radio/radio.component';
+import { AddItemComponent } from './modules/angular/components/add-item/add-item.component';
+import { CityComponent } from './modules/angular/components/city/city.component';
 import { UpgradeModule } from '@angular/upgrade/static';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
     declarations: [
         AddItemComponent,
-        RadioComponent
+        CityComponent
     ],
     entryComponents: [
         AddItemComponent,
-        RadioComponent
+        CityComponent
     ],
     imports: [
         BrowserModule,

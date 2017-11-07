@@ -1,6 +1,0 @@
-<div>
-    <div>Radio</div>
-    <tr *ngFor="let city of cities; let i = index">
-        <span>{{city}}</span>
-        <input type="radio" name="city-radiogroup" [checked]="i === 0" (change)="toggle(city)" />
-</div>

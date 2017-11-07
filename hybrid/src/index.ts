@@ -1,17 +1,17 @@
 import "./polyfills.ts";
-import "./modules/tweets/angular/index";
+import "./modules/angular/index";
 import * as angular from "angular";
 
 import { downgradeComponent } from '@angular/upgrade/static';
-import { AddItemComponent } from "./modules/tweets/angular/components/add-item/add-item.component";
-import { RadioComponent } from "./modules/tweets/angular/components/radio/radio.component";
+import { AddItemComponent } from "./modules/angular/components/add-item/add-item.component";
+import { CityComponent } from "./modules/angular/components/city/city.component";
 
 angular.module("app", ["app.ng1", "ng2"]);
 angular.module("ng2", [])
     .directive('addItem',
     downgradeComponent({ component: AddItemComponent }) as angular.IDirectiveFactory)
-    .directive('radio',
-    downgradeComponent({ component: RadioComponent }) as angular.IDirectiveFactory);
+    .directive('city',
+    downgradeComponent({ component: CityComponent }) as angular.IDirectiveFactory);
 
 
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';

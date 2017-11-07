@@ -1,24 +1,10 @@
-/*"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.config = {
-    framework: 'jasmine',
-    capabilities: {
-        browserName: 'firefox'
-    },
-    
-    seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['./spec.ts'],
-  //  noGlobals: true
-};*/
-//# sourceMappingURL=conf.js.map
-
 exports.config = {
 
   allScriptsTimeout: 11000,
 
   specs: [
-    'spec.ts'
-  ],
+    './e2e/**/*spec.ts'
+  ], 
 
   capabilities: {
     'browserName': 'chrome'
@@ -30,6 +16,10 @@ exports.config = {
 
   jasmineNodeOpts: {
     defaultTimeoutInterval: 30000
-  }
+  },
+
+  onPrepare: function() {
+    require('ts-node').register({ compilerOptions: { module: 'commonjs' }, disableWarnings: true, fast: true });
+  },
 
 };
