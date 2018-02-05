@@ -51,8 +51,8 @@
     "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
     "no-trailing-whitespace": true,
     "no-unreachable": true,
-    "no-unused-expression": true,
-    "no-unused-variable": true,
+ 
+
     "no-use-before-declare": true,
     "no-var-keyword": false,
     "no-var-requires": false,
@@ -69,10 +69,7 @@
     "triple-equals": [true, "allow-null-check"],
     "typedef": [true,
       "call-signature",
-      "parameter",
-      "property-declaration",
-      "variable-declaration",
-      "member-variable-declaration"
+      "parameter"    
     ],
     "typedef-whitespace": [true, {
       "call-signature": "nospace",

@@ -2,17 +2,20 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AddItemComponent } from './modules/angular/components/add-item/add-item.component';
 import { CityComponent } from './modules/angular/components/city/city.component';
+import { CSSCarouselComponent } from './modules/angular/components/carousel/carousel.component';
 import { UpgradeModule } from '@angular/upgrade/static';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
     declarations: [
         AddItemComponent,
-        CityComponent
+        CityComponent,
+        CSSCarouselComponent, 
     ],
     entryComponents: [
         AddItemComponent,
-        CityComponent
+        CityComponent,
+        CSSCarouselComponent, 
     ],
     imports: [
         BrowserModule,
